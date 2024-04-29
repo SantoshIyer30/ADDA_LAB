@@ -1,3 +1,5 @@
+# ADDA_LAB (consider renaming to snake_case)
+
 def calculate_area(length: float, width: float) -> float:
     """Calculates the area of a rectangle.
 
@@ -11,7 +13,19 @@ def calculate_area(length: float, width: float) -> float:
 
     return length * width
 
-total_area = calculate_area(5.0, 3.0)  # Use explicit type conversion if needed
+TOTAL_AREA = calculate_area(5.0, 3.0)  # Use explicit type conversion if needed
 
-message = f"The total area is: {total_area:.2f} square units"  # F-string formatting
-print(message)
+# Consider adding functionality to proper.py
+
+# error.py (consider renaming to descriptive name)
+def print_message(message):  # Define a function to print the message
+    """Prints a formatted message.
+
+    Args:
+        message: The message to be printed (str).
+    """
+
+    print(f"The total area is: {TOTAL_AREA:.2f} square units")  # F-string formatting
+
+# Call the defined function
+print_message("This message comes from a function!")
