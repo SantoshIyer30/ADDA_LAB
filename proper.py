@@ -1,3 +1,9 @@
+"""This module contains functions for performing proper calculations.
+
+(Consider adding a more descriptive explanation of the calculations performed)
+"""
+
+
 # ADDA_LAB (consider renaming to snake_case)
 
 def calculate_area(length: float, width: float) -> float:
